@@ -1,0 +1,96 @@
+body {
+    background-color: #333;
+    color: #fff;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    flex-direction: column;
+    padding: 20px;
+}
+
+.container {
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+}
+
+.title {
+    text-align: center;
+    font-size: 2.5rem;
+}
+
+.subtitle {
+    text-align: center;
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+}
+
+input, button {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: none;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+input {
+    background-color: #444;
+    color: #fff;
+}
+
+button {
+    background-color: #b00;
+    color: #fff;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #d00;
+}
+
+.price-info {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.price-info input {
+    flex: 1;
+}
+
+#productTable {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+#productTable th, #productTable td {
+    padding: 10px;
+    border: 1px solid #444;
+    text-align: center;
+}
+
+#productTable th {
+    background-color: #555;
+}
+
+.update, .delete {
+    background-color: #b00;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+.update:hover, .delete:hover {
+    background-color: #d00;
+}
+
+#deleteAll {
+    text-align: center;
+    margin-top: 20px;
+}
