@@ -50,7 +50,6 @@ function createProduct() {
         localStorage.setItem('products', JSON.stringify(products));
         showData();
         clearInputs();
-        window.scrollTo({top: 0, behavior: 'smooth'});
     }
 }
 
